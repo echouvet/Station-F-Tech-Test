@@ -1,0 +1,20 @@
+{
+  "name": "station_F_technical_test",
+  "version": "1.0.0",
+  "description": "Node.js backend",
+  "author": "Eloi Chouvet <echouvet@student.42.fr>",
+  "main": "server.js",
+
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
